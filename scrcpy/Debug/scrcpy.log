@@ -1,0 +1,234 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: 名为 file.c 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 app\src\sys\win\file.c, app\src\util\file.c。
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: 名为 process.c 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 app\src\sys\win\process.c, app\src\util\process.c。
+  adb.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\adb\adb.c(307,9): warning C4047: “return”:“bool”与“void *”的间接级别不同
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\adb\adb.c(312,9): warning C4047: “return”:“bool”与“void *”的间接级别不同
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\adb\adb.c(338,9): warning C4047: “return”:“bool”与“void *”的间接级别不同
+  adb_device.c
+  adb_parser.c
+  adb_tunnel.c
+  atomic.c
+  audio_player.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/audio_player.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\audio_player.c(281,41): warning C4244: “函数”: 从“uint32_t”转换到“float”，可能丢失数据
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\audio_player.c(148,56): warning C4244: “初始化”: 从“int64_t”转换到“int”，可能丢失数据
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\audio_player.c(294,41): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\audio_player.c(356,55): warning C4244: “=”: 从“sc_tick”转换到“uint32_t”，可能丢失数据
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\audio_player.c(367,20): warning C4244: “初始化”: 从“uint64_t”转换到“Uint16”，可能丢失数据
+  cli.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\cli.c(1100,32): warning C4090: “=”: 不同的“const”限定符
+  clock.c
+  compat.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\compat.c(86,37): warning C4244: “return”: 从“uint64_t”转换到“long”，可能丢失数据
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\compat.c(97,36): warning C4244: “=”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  controller.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\controller.c(32,8): warning C4013: “aoa_sc_vecdeque_realloc_”未定义；假设外部返回 int
+  control_msg.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(13,14): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  (编译源文件“app/src/control_msg.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(53,20): warning C4244: “初始化”: 从“float”转换到“uint32_t”，可能丢失数据
+  (编译源文件“app/src/control_msg.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(67,19): warning C4244: “初始化”: 从“float”转换到“int32_t”，可能丢失数据
+  (编译源文件“app/src/control_msg.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\control_msg.c(67,14): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\control_msg.c(69,14): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\control_msg.c(71,14): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\control_msg.c(73,14): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  decoder.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/decoder.c”)
+  
+  delay_buffer.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/delay_buffer.c”)
+  
+  demuxer.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/demuxer.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(13,14): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  (编译源文件“app/src/demuxer.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(53,20): warning C4244: “初始化”: 从“float”转换到“uint32_t”，可能丢失数据
+  (编译源文件“app/src/demuxer.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(67,19): warning C4244: “初始化”: 从“float”转换到“int32_t”，可能丢失数据
+  (编译源文件“app/src/demuxer.c”)
+  
+  device_msg.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(13,14): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  (编译源文件“app/src/device_msg.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(53,20): warning C4244: “初始化”: 从“float”转换到“uint32_t”，可能丢失数据
+  (编译源文件“app/src/device_msg.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(67,19): warning C4244: “初始化”: 从“float”转换到“int32_t”，可能丢失数据
+  (编译源文件“app/src/device_msg.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\device_msg.c(69,37): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  display.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/display.c”)
+  
+  file_pusher.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\file_pusher.c(76,5): warning C4133: “return”: 从“sc_file_pusher_request *”到“sc_file_pusher_request_queue *”的类型不兼容
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\file_pusher.c(87,40): warning C4133: “初始化”: 从“sc_file_pusher_request_queue *”到“sc_file_pusher_request *”的类型不兼容
+  fps_counter.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\fps_counter.c(70,67): warning C4244: “初始化”: 从“sc_tick”转换到“uint32_t”，可能丢失数据
+  frame_buffer.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/frame_buffer.c”)
+  
+  getopt.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\getopt.c(176,59): warning C4028: 形参 3 与声明不同
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\getopt.c(176,13): warning C4273: “strncmp”: dll 链接不一致
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(271,22):
+  参见“strncmp”的前一个定义
+  
+  正在生成代码...
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\adb\adb_parser.c(148): warning C4716: “adb_parser_sc_vector_reserve”: 必须返回一个值
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\adb\adb_parser.c(124): warning C4716: “adb_parser_sc_vector_realloc_”: 必须返回一个值
+  正在编译...
+  hid_keyboard.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\hid\hid_keyboard.c(278,51): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  hid_mouse.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\hid\hid_mouse.c(190,15): warning C4244: “=”: 从“const float”转换到“uint8_t”，可能丢失数据
+  icon.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/icon.c”)
+  
+  input_manager.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/input_manager.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\input_manager.c(374,34): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\input_manager.c(375,34): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\input_manager.c(638,48): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\input_manager.c(639,48): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\input_manager.c(678,26): warning C4244: “初始化”: 从“const float”转换到“int32_t”，可能丢失数据
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\input_manager.c(679,26): warning C4244: “初始化”: 从“const float”转换到“int32_t”，可能丢失数据
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\input_manager.c(765,48): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\input_manager.c(766,48): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  keyboard_sdk.c
+  main.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/main.c”)
+  
+  mouse_sdk.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/mouse_sdk.c”)
+  
+  opengl.c
+  options.c
+  packet_merger.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/packet_merger.c”)
+  
+  receiver.c
+  recorder.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/recorder.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\recorder.c(60,5): warning C4047: “return”:“AVPacket *”与“AVPacket **”的间接级别不同
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\recorder.c(618,14): warning C4013: “file_pusher_sc_vecdeque_realloc_”未定义；假设外部返回 int
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\recorder.c(628,41): warning C4013: “file_pusher_sc_vecdeque_grow_”未定义；假设外部返回 int
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\recorder.c(635,67): warning C4090: “=”: 不同的“const”限定符
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\recorder.c(640,15): warning C4013: “file_pusher_sc_vecdeque_grow_if_needed_”未定义；假设外部返回 int
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\recorder.c(642,9): warning C4013: “file_pusher_sc_vecdeque_push_noresize”未定义；假设外部返回 int
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\recorder.c(758,15): warning C4013: “delay_buffer_sc_vecdeque_push”未定义；假设外部返回 int
+  scrcpy.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/scrcpy.c”)
+  
+  screen.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/screen.c”)
+  
+  server.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(13,14): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  (编译源文件“app/src/server.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(53,20): warning C4244: “初始化”: 从“float”转换到“uint32_t”，可能丢失数据
+  (编译源文件“app/src/server.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\binary.h(67,19): warning C4244: “初始化”: 从“float”转换到“int32_t”，可能丢失数据
+  (编译源文件“app/src/server.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\server.c(699,12): warning C4244: “return”: 从“long”转换到“uint16_t”，可能丢失数据
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\server.c(953,30): warning C4047: “函数”:“bool”与“void *”的间接级别不同
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\server.c(953,30): warning C4024: “sc_process_wait”: 形参和实参 2 的类型不同
+  file.c
+  process.c
+  frame_source.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/trait/frame_source.c”)
+  
+  packet_source.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/trait/packet_source.c”)
+  
+  keyboard_uhid.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\uhid\keyboard_uhid.c(155,40): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  mouse_uhid.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\uhid\mouse_uhid.c(82,40): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  uhid_output.c
+  aoa_hid.c
+  keyboard_aoa.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\usb\keyboard_aoa.c(76,32): warning C4267: “函数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  mouse_aoa.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\usb\mouse_aoa.c(62,32): warning C4267: “函数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  scrcpy_otg.c
+  screen_otg.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/usb/screen_otg.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\usb\screen_otg.c(209,25): warning C4244: “初始化”: 从“const Sint32”转换到“float”，可能丢失数据
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\usb\screen_otg.c(210,25): warning C4244: “初始化”: 从“const Sint32”转换到“float”，可能丢失数据
+  usb.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\usb\usb.c(107,15): warning C4013: “adb_parser_sc_vector_reserve”未定义；假设外部返回 int
+  acksync.c
+  audiobuf.c
+  average.c
+  file.c
+  intmap.c
+  intr.c
+  log.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/util/log.c”)
+  
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\log.c(79,61): warning C4133: “函数”: 从“char *”到“LPWSTR”的类型不兼容
+  memory.c
+  net.c
+  net_intr.c
+  process.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\process.c(323,16): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  process_intr.c
+  正在生成代码...
+  正在编译...
+  rand.c
+  str.c
+  strbuf.c
+  term.c
+  thread.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\src\util\thread.c(175,19): warning C4244: “初始化”: 从“sc_tick”转换到“uint32_t”，可能丢失数据
+  tick.c
+  timeout.c
+  v4l2_sink.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/v4l2_sink.c”)
+  
+  version.c
+D:\MyDemo\RenderDemo\scrcpy\scrcpy\app\deps\work\install\win32\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app/src/version.c”)
+  
+  正在生成代码...
+Debug\file.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+Debug\process.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  scrcpy.vcxproj -> D:\MyDemo\RenderDemo\scrcpy\Debug\scrcpy.exe

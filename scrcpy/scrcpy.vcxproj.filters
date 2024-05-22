@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app\src\adb\adb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\adb\adb_device.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\adb\adb_parser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\adb\adb_tunnel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\hid\hid_keyboard.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\hid\hid_mouse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\sys\win\file.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\sys\win\process.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\trait\frame_source.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\trait\packet_source.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\uhid\keyboard_uhid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\uhid\mouse_uhid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\uhid\uhid_output.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\usb\aoa_hid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\usb\keyboard_aoa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\usb\mouse_aoa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\usb\scrcpy_otg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\usb\screen_otg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\usb\usb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\acksync.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\audiobuf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\average.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\file.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\intmap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\intr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\memory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\net.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\net_intr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\process.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\process_intr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\rand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\strbuf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\term.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\thread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\tick.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\util\timeout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\atomic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\audio_player.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\cli.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\clock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\compat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\control_msg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\controller.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\decoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\delay_buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\demuxer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\device_msg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\display.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\file_pusher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\fps_counter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\frame_buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\icon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\input_manager.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\keyboard_sdk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\mouse_sdk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\opengl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\options.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\packet_merger.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\receiver.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\recorder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\scrcpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\screen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\server.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\v4l2_sink.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\version.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app\src\getopt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\src\adb\adb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\adb\adb_device.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\adb\adb_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\adb\adb_tunnel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\android\input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\android\keycodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\hid\hid_event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\hid\hid_keyboard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\hid\hid_mouse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\trait\frame_sink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\trait\frame_source.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\trait\key_processor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\trait\mouse_processor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\trait\packet_sink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\trait\packet_source.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\uhid\keyboard_uhid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\uhid\mouse_uhid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\uhid\uhid_output.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\usb\aoa_hid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\usb\keyboard_aoa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\usb\mouse_aoa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\usb\scrcpy_otg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\usb\screen_otg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\usb\usb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\acksync.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\audiobuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\average.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\binary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\intmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\intr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\net.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\net_intr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\process_intr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\rand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\str.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\strbuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\term.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\tick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\timeout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\vecdeque.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\util\vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\atomic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\audio_player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\cli.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\clock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\compat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\control_msg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\controller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\coords.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\delay_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\demuxer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\device_msg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\display.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\events.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\file_pusher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\fps_counter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\frame_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\icon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\input_events.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\input_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\keyboard_sdk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\mouse_sdk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\opengl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\options.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\packet_merger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\receiver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\recorder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\scrcpy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\screen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\strings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\unistd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\v4l2_sink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\getopt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app\src\tailor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

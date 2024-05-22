@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b9e1c261-4d17-4d39-a8ee-a0281c750068}</ProjectGuid>
+    <RootNamespace>scrcpy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\scrcpy\app\deps\work\install\win32\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libSDL2.dll.a;avcodec.lib;avformat.lib;avutil.lib;swresample.lib;libusb-1.0.dll.a;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\scrcpy\app\deps\work\install\win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\scrcpy\app\deps\work\install\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libSDL2.dll.a;avcodec.lib;avformat.lib;avutil.lib;swresample.lib;libusb-1.0.dll.a;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\scrcpy\app\deps\work\install\win64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="app\src\adb\adb.c" />
+    <ClCompile Include="app\src\adb\adb_device.c" />
+    <ClCompile Include="app\src\adb\adb_parser.c" />
+    <ClCompile Include="app\src\adb\adb_tunnel.c" />
+    <ClCompile Include="app\src\atomic.c" />
+    <ClCompile Include="app\src\audio_player.c" />
+    <ClCompile Include="app\src\cli.c" />
+    <ClCompile Include="app\src\clock.c" />
+    <ClCompile Include="app\src\compat.c" />
+    <ClCompile Include="app\src\controller.c" />
+    <ClCompile Include="app\src\control_msg.c" />
+    <ClCompile Include="app\src\decoder.c" />
+    <ClCompile Include="app\src\delay_buffer.c" />
+    <ClCompile Include="app\src\demuxer.c" />
+    <ClCompile Include="app\src\device_msg.c" />
+    <ClCompile Include="app\src\display.c" />
+    <ClCompile Include="app\src\file_pusher.c" />
+    <ClCompile Include="app\src\fps_counter.c" />
+    <ClCompile Include="app\src\frame_buffer.c" />
+    <ClCompile Include="app\src\getopt.c" />
+    <ClCompile Include="app\src\hid\hid_keyboard.c" />
+    <ClCompile Include="app\src\hid\hid_mouse.c" />
+    <ClCompile Include="app\src\icon.c" />
+    <ClCompile Include="app\src\input_manager.c" />
+    <ClCompile Include="app\src\keyboard_sdk.c" />
+    <ClCompile Include="app\src\main.c" />
+    <ClCompile Include="app\src\mouse_sdk.c" />
+    <ClCompile Include="app\src\opengl.c" />
+    <ClCompile Include="app\src\options.c" />
+    <ClCompile Include="app\src\packet_merger.c" />
+    <ClCompile Include="app\src\receiver.c" />
+    <ClCompile Include="app\src\recorder.c" />
+    <ClCompile Include="app\src\scrcpy.c" />
+    <ClCompile Include="app\src\screen.c" />
+    <ClCompile Include="app\src\server.c" />
+    <ClCompile Include="app\src\sys\win\file.c" />
+    <ClCompile Include="app\src\sys\win\process.c" />
+    <ClCompile Include="app\src\trait\frame_source.c" />
+    <ClCompile Include="app\src\trait\packet_source.c" />
+    <ClCompile Include="app\src\uhid\keyboard_uhid.c" />
+    <ClCompile Include="app\src\uhid\mouse_uhid.c" />
+    <ClCompile Include="app\src\uhid\uhid_output.c" />
+    <ClCompile Include="app\src\usb\aoa_hid.c" />
+    <ClCompile Include="app\src\usb\keyboard_aoa.c" />
+    <ClCompile Include="app\src\usb\mouse_aoa.c" />
+    <ClCompile Include="app\src\usb\scrcpy_otg.c" />
+    <ClCompile Include="app\src\usb\screen_otg.c" />
+    <ClCompile Include="app\src\usb\usb.c" />
+    <ClCompile Include="app\src\util\acksync.c" />
+    <ClCompile Include="app\src\util\audiobuf.c" />
+    <ClCompile Include="app\src\util\average.c" />
+    <ClCompile Include="app\src\util\file.c" />
+    <ClCompile Include="app\src\util\intmap.c" />
+    <ClCompile Include="app\src\util\intr.c" />
+    <ClCompile Include="app\src\util\log.c" />
+    <ClCompile Include="app\src\util\memory.c" />
+    <ClCompile Include="app\src\util\net.c" />
+    <ClCompile Include="app\src\util\net_intr.c" />
+    <ClCompile Include="app\src\util\process.c" />
+    <ClCompile Include="app\src\util\process_intr.c" />
+    <ClCompile Include="app\src\util\rand.c" />
+    <ClCompile Include="app\src\util\str.c" />
+    <ClCompile Include="app\src\util\strbuf.c" />
+    <ClCompile Include="app\src\util\term.c" />
+    <ClCompile Include="app\src\util\thread.c" />
+    <ClCompile Include="app\src\util\tick.c" />
+    <ClCompile Include="app\src\util\timeout.c" />
+    <ClCompile Include="app\src\v4l2_sink.c" />
+    <ClCompile Include="app\src\version.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\src\adb\adb.h" />
+    <ClInclude Include="app\src\adb\adb_device.h" />
+    <ClInclude Include="app\src\adb\adb_parser.h" />
+    <ClInclude Include="app\src\adb\adb_tunnel.h" />
+    <ClInclude Include="app\src\android\input.h" />
+    <ClInclude Include="app\src\android\keycodes.h" />
+    <ClInclude Include="app\src\atomic.h" />
+    <ClInclude Include="app\src\audio_player.h" />
+    <ClInclude Include="app\src\cli.h" />
+    <ClInclude Include="app\src\clock.h" />
+    <ClInclude Include="app\src\common.h" />
+    <ClInclude Include="app\src\compat.h" />
+    <ClInclude Include="app\src\config.h" />
+    <ClInclude Include="app\src\controller.h" />
+    <ClInclude Include="app\src\control_msg.h" />
+    <ClInclude Include="app\src\coords.h" />
+    <ClInclude Include="app\src\decoder.h" />
+    <ClInclude Include="app\src\delay_buffer.h" />
+    <ClInclude Include="app\src\demuxer.h" />
+    <ClInclude Include="app\src\device_msg.h" />
+    <ClInclude Include="app\src\display.h" />
+    <ClInclude Include="app\src\events.h" />
+    <ClInclude Include="app\src\file_pusher.h" />
+    <ClInclude Include="app\src\fps_counter.h" />
+    <ClInclude Include="app\src\frame_buffer.h" />
+    <ClInclude Include="app\src\getopt.h" />
+    <ClInclude Include="app\src\hid\hid_event.h" />
+    <ClInclude Include="app\src\hid\hid_keyboard.h" />
+    <ClInclude Include="app\src\hid\hid_mouse.h" />
+    <ClInclude Include="app\src\icon.h" />
+    <ClInclude Include="app\src\input_events.h" />
+    <ClInclude Include="app\src\input_manager.h" />
+    <ClInclude Include="app\src\keyboard_sdk.h" />
+    <ClInclude Include="app\src\mouse_sdk.h" />
+    <ClInclude Include="app\src\opengl.h" />
+    <ClInclude Include="app\src\options.h" />
+    <ClInclude Include="app\src\packet_merger.h" />
+    <ClInclude Include="app\src\receiver.h" />
+    <ClInclude Include="app\src\recorder.h" />
+    <ClInclude Include="app\src\scrcpy.h" />
+    <ClInclude Include="app\src\screen.h" />
+    <ClInclude Include="app\src\server.h" />
+    <ClInclude Include="app\src\strings.h" />
+    <ClInclude Include="app\src\tailor.h" />
+    <ClInclude Include="app\src\trait\frame_sink.h" />
+    <ClInclude Include="app\src\trait\frame_source.h" />
+    <ClInclude Include="app\src\trait\key_processor.h" />
+    <ClInclude Include="app\src\trait\mouse_processor.h" />
+    <ClInclude Include="app\src\trait\packet_sink.h" />
+    <ClInclude Include="app\src\trait\packet_source.h" />
+    <ClInclude Include="app\src\uhid\keyboard_uhid.h" />
+    <ClInclude Include="app\src\uhid\mouse_uhid.h" />
+    <ClInclude Include="app\src\uhid\uhid_output.h" />
+    <ClInclude Include="app\src\unistd.h" />
+    <ClInclude Include="app\src\usb\aoa_hid.h" />
+    <ClInclude Include="app\src\usb\keyboard_aoa.h" />
+    <ClInclude Include="app\src\usb\mouse_aoa.h" />
+    <ClInclude Include="app\src\usb\scrcpy_otg.h" />
+    <ClInclude Include="app\src\usb\screen_otg.h" />
+    <ClInclude Include="app\src\usb\usb.h" />
+    <ClInclude Include="app\src\util\acksync.h" />
+    <ClInclude Include="app\src\util\audiobuf.h" />
+    <ClInclude Include="app\src\util\average.h" />
+    <ClInclude Include="app\src\util\binary.h" />
+    <ClInclude Include="app\src\util\file.h" />
+    <ClInclude Include="app\src\util\intmap.h" />
+    <ClInclude Include="app\src\util\intr.h" />
+    <ClInclude Include="app\src\util\log.h" />
+    <ClInclude Include="app\src\util\memory.h" />
+    <ClInclude Include="app\src\util\net.h" />
+    <ClInclude Include="app\src\util\net_intr.h" />
+    <ClInclude Include="app\src\util\process.h" />
+    <ClInclude Include="app\src\util\process_intr.h" />
+    <ClInclude Include="app\src\util\rand.h" />
+    <ClInclude Include="app\src\util\str.h" />
+    <ClInclude Include="app\src\util\strbuf.h" />
+    <ClInclude Include="app\src\util\term.h" />
+    <ClInclude Include="app\src\util\thread.h" />
+    <ClInclude Include="app\src\util\tick.h" />
+    <ClInclude Include="app\src\util\timeout.h" />
+    <ClInclude Include="app\src\util\vecdeque.h" />
+    <ClInclude Include="app\src\util\vector.h" />
+    <ClInclude Include="app\src\v4l2_sink.h" />
+    <ClInclude Include="app\src\version.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
